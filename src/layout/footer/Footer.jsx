@@ -5,7 +5,7 @@ function Footer(props) {
   return (
     <div>
       <footer>
-        footer
+        
       </footer>
     </div>
   );

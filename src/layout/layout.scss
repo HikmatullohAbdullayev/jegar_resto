@@ -36,8 +36,10 @@ margin-left: 20px;
 .orders_box {
     max-width: 361px;
     width: 100%;
-    overflow: auto;
+    overflow: hidden;
+    // position: absolute;
     position: sticky;
     top: 0;
-    height: 100vh;
+    right: 0;
+    height: auto;
 }

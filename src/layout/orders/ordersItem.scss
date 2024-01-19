@@ -1,0 +1,121 @@
+.orders_list {
+    padding: 24px;
+    margin-top: 190px;
+    overflow: scroll;
+    overflow: hidden;
+    height: auto;
+    // padding: 8px 0;
+    gap: 24px;
+    border: 1px solid #434655;
+}
+.orders_item {
+    border-bottom: 1px solid #434655;
+    padding:12px 10px 8px 10px;
+    gap: 12px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+
+}
+.item_top {
+         display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.orders_content {
+         display: flex;
+        justify-content: space-between;
+    background-color: #252836;
+
+}
+.item_img {
+    border-radius:50%;
+    width: 45px;
+    height: auto;
+    padding-right: 12px;
+
+}
+.orders_names {
+    gap: 5px;
+}
+.item_title {
+    color: #FFF;
+font-family: Barlow;
+font-size: 14px;
+font-weight: 500;
+line-height: 130%; /* 18.2px */
+}
+.item_price {
+    color:  #ABBBC2;
+font-family: Barlow;
+font-size: 12px;
+font-weight: 500;
+line-height: 140%; /* 16.8px */
+}
+.itemtotal__box {
+         display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5px;
+}
+.item_count {
+    color:  #FFF;
+    display: flex;
+    width: 48px;
+    padding: 14px 14px 12px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+border: 1px solid  #393C49;
+background-color:  #2D303E;
+/* Body/Large - Medium */
+font-family: Barlow;
+font-size: 16px;
+font-weight: 500;
+line-height: 140%; /* 22.4px */
+}
+.item_total_price {
+    color: #FFF;
+text-align: right;
+
+/* Body/Large - Medium */
+font-family: Barlow;
+font-size: 16px;
+font-weight: 500;
+line-height: 140%; /* 22.4px */
+}
+.item_bottom {
+         display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.item_input {
+    padding: 14px;
+    outline: transparent;
+    border: transparent;
+    background-color: transparent;
+    padding: 8px 16px;
+    border: 1px solid rgba(128, 128, 128, 0.67);
+    border-radius:8px;        
+    color:#fff;
+    &::placeholder{
+        
+        color:  #E0E6E9;
+
+/* Body / Normal - Regular  */
+font-family: Barlow;
+font-size: 14px;
+font-weight: 400;
+line-height: 140%; /* 19.6px */
+    }
+}
+.item_button {
+    border-radius: 8px;
+border: 1px solid  #FF7CA3;
+padding: 14px;
+background-color: transparent;
+
+border-radius:8px; 
+}

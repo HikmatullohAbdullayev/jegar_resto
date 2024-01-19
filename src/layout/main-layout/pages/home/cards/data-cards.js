@@ -37,6 +37,60 @@ const dataCard = [
         price:"$ 2.29",
         text: "20 Bowls available",
     },
+    {
+        id:7,
+        title:"Spicy seasoned seafood noodles",
+        price:"$ 2.29",
+        text: "20 Bowls available",
+    },
+    {
+        id:8,
+        title:"Spicy seasoned seafood noodles",
+        price:"$ 2.29",
+        text: "20 Bowls available",
+    },
+    {
+        id:9,
+        title:"Spicy seasoned seafood noodles",
+        price:"$ 2.29",
+        text: "20 Bowls available",
+    },
+    {
+        id:10,
+        title:"Spicy seasoned seafood noodles",
+        price:"$ 2.29",
+        text: "20 Bowls available",
+    },
+    {
+        id:11,
+        title:"Spicy seasoned seafood noodles",
+        price:"$ 2.29",
+        text: "20 Bowls available",
+    },
+    {
+        id:12,
+        title:"Spicy seasoned seafood noodles",
+        price:"$ 2.29",
+        text: "20 Bowls available",
+    },
+    {
+        id:13,
+        title:"Spicy seasoned seafood noodles",
+        price:"$ 2.29",
+        text: "20 Bowls available",
+    },
+    {
+        id:14,
+        title:"Spicy seasoned seafood noodles",
+        price:"$ 2.29",
+        text: "20 Bowls available",
+    },
+    {
+        id:15,
+        title:"Spicy seasoned seafood noodles",
+        price:"$ 2.29",
+        text: "20 Bowls available",
+    },
     
 ]
 export default dataCard

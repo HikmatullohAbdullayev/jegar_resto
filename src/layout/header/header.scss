@@ -13,9 +13,7 @@
         justify-content: space-between;
         align-items: center;
 }
-.top_content {
 
-}
 .header_title {
     color:  #FFF;
 font-family: Barlow;
@@ -31,6 +29,7 @@ font-weight: 400;
 line-height: 140%; /* 22.4px */
 }
 .header_form{
+    margin-right: 20px;
     border-radius: 8px;
     border: 1px solid gray;
     display: flex;
@@ -46,7 +45,8 @@ line-height: 140%; /* 22.4px */
     outline: transparent;
     border: transparent;
     background-color: transparent;
-
+   
+    color:#fff;
     &::placeholder{
         padding-left: -10px;
         color:  #ABBBC2;
