@@ -1,0 +1,52 @@
+.sidebar_box {
+    background-color:#1F1D2B;
+    display: flex;
+    justify-content: stretch;
+    flex-direction: column;
+    align-items: center;
+}
+.logo_link {
+    margin: 24px;
+}
+.logo {
+    padding: 16px;
+}
+.sidebar_icons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    fill: #EA7C69;
+}
+
+.icon_pading {
+    background-color: transparent;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid #EA7C69;
+    margin: 25px 23px, 22px 12px;
+    transition: 0.2ms ease-in-out;
+    cursor: pointer;
+}
+.icon_pading:hover{
+    background-color:transparent;
+    fill: white;
+    background-color: #EA7C69;
+
+}
+
+.icon_logout{
+    background-color: transparent;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid #EA7C69;
+    margin-top: 46px;
+    transition: 0.2ms ease-in-out;
+    cursor: pointer;
+}
+
+.icon_logout:hover{
+
+    background-color: #EA7C69;
+}
